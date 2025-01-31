@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url("./image/img5.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+.search-box {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 500px;
+}
+.btn-custom {
+    background-color: #007bff;
+    color: white;
+}
+
+.text-center a {
+    text-decoration: none;
+}
+

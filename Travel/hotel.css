@@ -1,0 +1,92 @@
+/* Hotel and Villas Section */
+.hotels-villas {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+  }
+  
+  .hotels-villas .section-title {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .hotels-villas .hotel-villa-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .hotels-villas .hotel-villa-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .hotels-villas .hotel-villa-card .card-body {
+    padding: 20px;
+  }
+  
+  .hotels-villas .hotel-villa-card .card-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .hotels-villas .hotel-villa-card .card-text {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .hotels-villas .hotel-villa-card .rating {
+    font-size: 14px;
+    color: #ff9900;
+    margin-bottom: 20px;
+  }
+  
+  .hotels-villas .hotel-villa-card .price {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  .hotels-villas .hotel-villa-card .price span {
+    font-size: 24px;
+    font-weight: bold;
+    color: #337ab7;
+    }
+    
+    .hotels-villas .hotel-villa-card button {
+    background-color: #337ab7;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    }
+    
+    .hotels-villas .hotel-villa-card button:hover {
+    background-color: #23527c;
+    }
+    
+    /* Responsive Design */
+    
+    @media (max-width: 768px) {
+    .hotels-villas .hotel-villa-card {
+    margin-bottom: 20px;
+    }
+    }
+    
+    @media (max-width: 480px) {
+    .hotels-villas .hotel-villa-card img {
+    height: 150px;
+    }
+    .hotels-villas .hotel-villa-card .card-body {
+    padding: 15px;
+    }
+    .hotels-villas .hotel-villa-card .card-title {
+    font-size: 16px;
+    }
+    .hotels-villas .hotel-villa-card .price {
+    font-size: 16px;
+    }
+}
